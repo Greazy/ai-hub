@@ -1,0 +1,29 @@
+version: '3.9'
+
+services:
+  api:
+    build: ./api
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+    environment:
+      - DATABASE_URL=postgresql://aihub:password@db:5432/aihub
+
+  ui:
+    build: ./ai-hub-ui
+    ports:
+      - "3000:3000"
+
+  db:
+    image: postgres:15
+    restart: always
+    environment:
+      POSTGRES_USER: 
+      POSTGRES_PASSWORD: 
+      POSTGRES_DB: 
+    volumes:
+      - db-data:/var/lib/postgresql/data
+
+volumes:
+  db-data:
