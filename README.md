@@ -9,4 +9,14 @@
 - **Database:** PostgreSQL
 - **DevOps:** Docker, Docker Compose
 
-## 📁 Project Structure
+## Getting Started
+
+1. **Clone the repo**
+```bash
+git clone https://github.com/your-username/ai-hub.git
+cd ai-hub
+```
+2. **Build & run all services**
+```bash
+docker compose up --build
+```
