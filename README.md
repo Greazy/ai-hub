@@ -1,10 +1,31 @@
-# AI Hub 🧠⚡
+# 🧠⚡AI Hub 
 
-**AI Hub** is a platform designed to interact with AI models through a simple and user-friendly interface. It provides an API for developers and a web UI for users of all ages. It also supports saving top AI responses and user history.
+**AI Hub** is a platform designed to interact with AI models through a simple and user-friendly interface. It provides an API for developers and a web UI for users of all ages. It's your all-in-one assistant for coding, scaffolding, generating tests, and understanding your workspace and stack.
+
+--
 
 
-# 🛠️ Workspace Generator
-**AI Hub** can generate and save code files directly in your workspace based on your prompts. It understands your project structure and assists with boilerplate, scaffolding, and more.
+## 🚀 Features
+
+### 🤖 AI Chat Assistant
+- Ask questions, debug, brainstorm ideas, or generate code in a conversational format.
+
+### 🛠️ Workspace Generator
+- Create and edit files directly in your project
+- Understand your folder and project structure
+- Help scaffold routers, models, services, and components
+
+### 🧪 Test Generation
+- Generate unit/integration tests for your API endpoints
+- Based on your Swagger/OpenAPI schema
+
+### 📂 Workspace Management
+- Manage your project structure intelligently
+- Analyze and interact with your current stack
+
+### 🧠 Stack-Aware Assistant
+- Context-aware reasoning across your backend/frontend
+- Provide suggestions tailored to your stack and architecture
 
 ## 🔧 Tech Stack
 
