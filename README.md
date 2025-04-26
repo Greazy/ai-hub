@@ -2,9 +2,6 @@
 
 **AI Hub** is a platform designed to interact with AI models through a simple and user-friendly interface. It provides an API for developers and a web UI for users of all ages. It's your all-in-one assistant for coding, scaffolding, generating tests, and understanding your workspace and stack.
 
---
-
-
 ## 🚀 Features
 
 ### 🤖 AI Chat Assistant
